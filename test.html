@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+        .question-container {
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .option-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .option {
+            margin: 5px;
+            background-color: cyan;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        .selected-option {
+            background-color: violet;
+        }
+
+        .correct-option {
+            background-color: lightgreen;
+        }
+
+        .thumb-up {
+            color: green;
+        }
+
+        .thumb-down {
+            color: red;
+        }
+        body{
+            background-color: green;
+        }
+   </style>
+</head>
+<body>
+
+
+
+
+
+
+    
+
+
+
+
+   <div class="question-container">
+       <p>Which HTML tag is used to define the structure of an HTML document?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;structure&gt;</div>
+       <div class="option">&lt;body&gt;</div>
+       <div class="option">&lt;html&gt;</div>
+       <div class="option">&lt;section&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What does the &lt;a&gt; tag do in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">Defines a table</div>
+       <div class="option">Adds an image</div>
+       <div class="option">Creates a hyperlink</div>
+       <div class="option">Changes the background color</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which tag is used to create an ordered list in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;ul&gt;</div>
+       <div class="option">&lt;li&gt;</div>
+       <div class="option">&lt;ol&gt;</div>
+       <div class="option">&lt;dl&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>How do you create a comment in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;!-- This is a comment --&gt;</div>
+       <div class="option">&lt;comment&gt; This is a comment &lt;/comment&gt;</div>
+       <div class="option">// This is a comment</div>
+       <div class="option"># This is a comment</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which tag is used to embed a video on an HTML page?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;img&gt;</div>
+       <div class="option">&lt;video&gt;</div>
+       <div class="option">&lt;a&gt;</div>
+       <div class="option">&lt;iframe&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What is the purpose of the &lt;meta&gt; tag in the &lt;head&gt; section of an HTML document?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">It defines a paragraph of text</div>
+       <div class="option">It specifies the character encoding</div>
+       <div class="option">It creates a hyperlink</div>
+       <div class="option">It defines a new list</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which tag is used to create a hyperlink in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;url&gt;</div>
+       <div class="option">&lt;link&gt;</div>
+       <div class="option">&lt;a&gt;</div>
+       <div class="option">&lt;href&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>How do you create an unordered list in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;ul&gt;</div>
+       <div class="option">&lt;ol&gt;</div>
+       <div class="option">&lt;li&gt;</div>
+       <div class="option">&lt;list&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What's the purpose of the &lt;form&gt; element in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">It defines a table</div>
+       <div class="option">It creates a hyperlink</div>
+       <div class="option">It specifies the character encoding</div>
+       <div class="option">It defines an interactive form</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which tag is used to create a table in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;table&gt;</div>
+       <div class="option">&lt;tr&gt;</div>
+       <div class="option">&lt;div&gt;</div>
+       <div class="option">&lt;form&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>How can you open a link in a new tab in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">By using the &lt;newtab&gt; tag</div>
+       <div class="option">By setting the &lt;newtab&gt; attribute to &lt;true&gt;</div>
+       <div class="option">By using &lt;a&gt; with target='_blank'</div>
+       <div class="option">By using JavaScript</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What does the &lt;strong&gt; tag do in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">It defines strong emphasis</div>
+       <div class="option">It creates a hyperlink</div>
+       <div class="option">It defines a table</div>
+       <div class="option">It specifies the character encoding</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which attribute is used to define the source URL of an image in the &lt;img&gt; tag?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">src</div>
+       <div class="option">link</div>
+       <div class="option">url</div>
+       <div class="option">source</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>How do you create a multiline text input field in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">By using the &lt;input&gt; tag</div>
+       <div class="option">By using the &lt;textarea&gt; tag</div>
+       <div class="option">By setting &lt;type="multiline"&gt;</div>
+       <div class="option">By using the &lt;text&gt; tag</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What is the purpose of the &lt;iframe&gt; element in HTML?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">It defines a table</div>
+       <div class="option">It creates a hyperlink</div>
+       <div class="option">It specifies the character encoding</div>
+       <div class="option">It embeds external content like videos</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which tag is used to define the main content of an HTML document?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;section&gt;</div>
+       <div class="option">&lt;body&gt;</div>
+       <div class="option">&lt;main&gt;</div>
+       <div class="option">&lt;content&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>How can you embed a YouTube video on an HTML page?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">By using the &lt;youtube&gt; tag</div>
+       <div class="option">By using the &lt;video&gt; tag</div>
+       <div class="option">By using the &lt;iframe&gt; tag with the YouTube video URL</div>
+       <div class="option">By using the &lt;embed&gt; tag</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What's the purpose of the &lt;label&gt; tag in HTML forms?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">It defines a label for an input element</div>
+       <div class="option">It creates a hyperlink</div>
+       <div class="option">It specifies the character encoding</div>
+       <div class="option">It defines a list</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>Which tag is used to define a line break in HTML without creating a new paragraph?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">&lt;line&gt;</div>
+       <div class="option">&lt;break&gt;</div>
+       <div class="option">&lt;br&gt;</div>
+       <div class="option">&lt;newline&gt;</div>
+       <button class="save-option">Save</button>
+   </div>
+    
+   <div class="question-container">
+       <p>What does the &lt;head&gt; section of an HTML document typically contain?</p>
+   </div>
+   <div class="option-container">
+       <div class="option">Main content of the page</div>
+       <div class="option">JavaScript code</div>
+       <div class="option">Metadata and links to external resources</div>
+       <div class="option">A list of links to other pages</div>
+       <button class="save-option">Save</button>
+   </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+   <!-- Repeat the above structure for each question -->
+
+   <button id="submit-answers">Submit</button>
+
+   <script>
+        const questions = document.querySelectorAll('.question-container');
+        const optionsContainers = document.querySelectorAll('.option-container');
+        const saveButtons = document.querySelectorAll('.save-option');
+        const submitButton = document.getElementById('submit-answers');
+
+        let selectedOptions = [];
+
+        optionsContainers.forEach((optionsContainer, questionIndex) =>{
+            const options = optionsContainer.querySelectorAll('.option');
+            const question = questions[questionIndex];
+
+            options.forEach((option, optionIndex) =>{
+                option.addEventListener('click', () =>{
+                    options.forEach((opt) =>{
+                        opt.classList.remove('selected-option');
+                    });
+                    option.classList.add('selected-option');
+                    selectedOptions[questionIndex] = optionIndex;
+                });
+            });
+
+            saveButtons[questionIndex].addEventListener('click', () =>{
+                if (selectedOptions[questionIndex] !== undefined) {
+                    const selectedOptionIndex = selectedOptions[questionIndex];
+                    const selectedOption = options[selectedOptionIndex];
+                    const isCorrect = selectedOption.textContent === getCorrectAnswer(questionIndex);
+
+                    saveSelectedOption(questionIndex, selectedOptionIndex, isCorrect);
+                }
+            });
+        });
+
+        function saveSelectedOption(questionIndex, optionIndex, isCorrect) {
+            const options = optionsContainers[questionIndex].querySelectorAll('.option');
+            const saveButton = saveButtons[questionIndex];
+
+            if (isCorrect) {
+                saveButton.innerHTML = '<i class="thumb-up">👍</i>';
+            } else {
+                saveButton.innerHTML = '<i class="thumb-down">👎</i>';
+                options[selectedOptions[questionIndex]].classList.add('correct-option');
+            }
+
+            options.forEach((option) =>{
+                option.removeEventListener('click');
+            });
+            saveButton.removeEventListener('click');
+        }
+
+        function getCorrectAnswer(questionIndex) {
+            // Add the correct answers for each question here
+const correctAnswers = [
+    "<html>",
+    "Creates a hyperlink",
+    "<ol>",
+    "<!-- This is a comment -->",
+    "<video>",
+    "It specifies the character encoding",
+    "<a>",
+    "<ul>",
+    "It defines an interactive form",
+    "<table>",
+    "By using <a> with target='_blank'",
+    "It defines strong emphasis",
+    "src",
+    "By using the <textarea> tag",
+    "It embeds external content like videos",
+    "<main>",
+    "By using the <iframe> tag with the YouTube video URL",
+    "It defines a label for an input element",
+    "<br>",
+    "Metadata and links to external resources"
+];
+            return correctAnswers[questionIndex];
+        }
+
+        submitButton.addEventListener('click', () =>{
+            selectedOptions.forEach((optionIndex, questionIndex) =>{
+                const options = optionsContainers[questionIndex].querySelectorAll('.option');
+                const saveButton = saveButtons[questionIndex];
+
+                if (optionIndex !== undefined) {
+                    const selectedOption = options[optionIndex];
+                    const isCorrect = selectedOption.textContent === getCorrectAnswer(questionIndex);
+
+                    saveSelectedOption(questionIndex, optionIndex, isCorrect);
+                } else {
+                    saveButton.innerHTML = '<i class="thumb-down">👎</i>';
+                }
+            });
+        });
+   </script>
+</body>
+</html>
